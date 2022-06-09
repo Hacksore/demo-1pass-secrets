@@ -12,6 +12,10 @@ SECRET_DEMO="op://secrets/demo secret/credential"
 ```bash
 # added to my $HOME/.zshrc file
 # you may chose to call this function anything you'd like as well
+
+# where we will store the env file
+ENV_PATH=$HOME/personal/.env
+
 function sec {
   # see if we are logged in, will return exit code > 0 if not
   op whoami
@@ -22,7 +26,7 @@ function sec {
   fi
 
   # this will inject the env vars we defined in our .env file
-  op run --env-file=$HOME/personal/.env -- $@
+  op run --env-file=$ENV_PATH -- $@
 }
 ```
 ### Usage
