@@ -11,15 +11,14 @@ SECRET_DEMO="op://secrets/demo secret/credential"
 ### Helper shell function
 ```bash
 # added to my $HOME/.zshrc file
-# you may chose to call this function anything you'd like as well
-
 # where we will store the env file
 ENV_PATH=$HOME/personal/.env
 
+# call this function anything you'd
 function sec {
   # see if we are logged in, will return exit code > 0 if not
   op whoami
-
+  
   # if we are logged skip if not ask for master password
   if [[ $? != 0 ]]; then 
     eval $(op signin)
