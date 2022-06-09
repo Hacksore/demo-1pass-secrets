@@ -1,8 +1,6 @@
 # demo-1pass-secrets
 A simple demo of how to load secrets from 1password cli to your program
 
-Blog post: TBD
-
 ### Config file
 ```bash
 SECRET_DEMO="op://secrets/demo secret/credential"
