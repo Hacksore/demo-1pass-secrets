@@ -15,12 +15,13 @@
   "devDependencies": {
     "eslint-config-custom": "latest",
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "*"
   },
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
   "dependencies": {},
-  "packageManager": "npm@8.19.2"
+  "packageManager": "yarn@1.22.19"
 }

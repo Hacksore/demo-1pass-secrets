@@ -4,9 +4,17 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "tsx main.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@t3-oss/env-core": "^0.4.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "tsconfig": "*",
+    "tsx": "*"
+  }
 }
