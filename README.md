@@ -2,7 +2,7 @@
 
 If you got here from the [previous dev.to article](https://dev.to/hacksore/using-1password-cli-for-secrets-locally-326e) please adopt the rust based solution [onepassword-secrets-util](https://github.com/Hacksore/onepassword-secret-util).
 
-Once you create '.env' files in both `apps/demo` and `apps/other-app` you can then start the application with `opx`.
+Once you create `.env` files in both `apps/demo` and `apps/other-app` you can then start the application with `opx`.
 
 This will yield the following output if all goes well and your secrets exist.
 
