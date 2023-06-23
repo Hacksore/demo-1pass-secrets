@@ -8,7 +8,8 @@ export const env = createEnv({
    */
   server: {
     /**
-     * The second secret for the demo app
+     * 
+     * The second secret for the other app
      */
     SECRET_TWO_DEMO: z.string(),
   },

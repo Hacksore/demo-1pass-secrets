@@ -8,7 +8,7 @@ export const env = createEnv({
    */
   server: {
     /**
-     * The schema for the server-side environment variables.
+     * The main secret for the demo app
      */
     SECRET_DEMO: z.string(),
   },
