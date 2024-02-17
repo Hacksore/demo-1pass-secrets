@@ -1,6 +1,6 @@
 # Real world demo of `opx`
 
-If you got here from the [previous dev.to article](https://dev.to/hacksore/using-1password-cli-for-secrets-locally-326e) please adopt the rust based solution [onepassword-secrets-util](https://github.com/Hacksore/onepassword-secret-util).
+If you got here from the [previous dev.to article](https://dev.to/hacksore/using-1password-cli-for-secrets-locally-326e) please adopt the rust based solution [opx](https://github.com/Hacksore/opx).
 
 Once you create `.env` files in both `apps/demo` and `apps/other-app` you can then start the application with `opx`.
 
