@@ -13,15 +13,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "eslint-config-custom": "latest",
-    "prettier": "latest",
+    "tsx": "^4.20.6",
     "turbo": "latest",
-    "typescript": "*"
+    "typescript": "^5.9.3"
   },
   "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=14.0.0"
+    "node": ">=20.0.0"
   },
-  "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "pnpm@10.18.2"
 }
